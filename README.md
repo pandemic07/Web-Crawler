@@ -90,11 +90,9 @@ The output file `discovered_product_urls.json` will have the following structure
 ## **Limitations**  
 - Cannot handle dynamic content or infinite scrolling.  
 - Relies on predefined patterns for product URLs.  
-- May not respect website-specific crawling rules or `robots.txt` files.  
 
 ---
 
 ## **Future Enhancements**  
 - Integrate support for dynamic content using Selenium or Puppeteer.  
-- Add logic to parse and respect `robots.txt`.  
 - Implement domain-specific crawling rules for better accuracy.
